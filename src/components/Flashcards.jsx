@@ -27,6 +27,16 @@ function Flashcards() {
             ]
         },
         {
+            title: 'sub-cards',
+            name: 'Economics',
+            children: [
+                { name: 'Accounts', children: <RelationAndFunctions /> },
+                { name: 'Income' },
+                { name: 'GDP' },
+                { name: 'Exports' },
+            ]
+        },
+        {
             name: 'Chemistry',
             children: [
                 { name: 'Haloalkanes' },

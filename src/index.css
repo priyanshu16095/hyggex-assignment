@@ -113,8 +113,13 @@ body::-webkit-scrollbar {
   }
   .hero__card__item {
     width: 80vw;
+    min-height: fit-content;
+    gap: 1rem;
   }
   .card {
     width: 85vw;
+  }
+  .hero__card__bottom {
+    width: 80vw;
   }
 }

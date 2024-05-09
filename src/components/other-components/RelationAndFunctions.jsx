@@ -87,7 +87,7 @@ function Hero() {
                 <div className="hero__bottom__logo flex-v">
                     <p>Powered by</p>
                     <img src="Component-3.png" width={'100rem'} /></div>
-                <div className="hero__bottom__buttom flex-h">
+                <div className="hero__bottom__button flex-h">
                     <AddCircleIcon className='iconB' />
                     <button onClick={() => setShowModal(true)} className='font gradient-text'>Create Flashcard</button>
                     {showModal && <Modal onClose={() => setShowModal(false)} />}

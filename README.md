@@ -1,8 +1,22 @@
-# React + Vite
+# Project Setup Instructions
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To set up the project:
 
-Currently, two official plugins are available:
+1. Navigate to the project directory.
+2. Run the following commands:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+npm run dev
+```
+
+Key Features
+
+- **Responsive Design**: Ensures seamless user experience across various devices and screen sizes.
+- **Dynamic Content**: Incorporates dynamic content to keep the user engaged and provide up-to-date information.
+- **Intuitive UI**: Offers a user-friendly interface with a design that is consistent and easy to navigate.
+
+Author: Priyanshu Gupta | May 09, 2024
+
+On the home page go to Mathematics -> Relations and Functions
+Due to lack of time, I can only present this.

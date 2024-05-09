@@ -25,7 +25,7 @@
     gap: 1.25rem;
 }
 .card {
-    width: 50vw;
+    width: 40rem;
     padding: 0.8rem 0.5rem;
     border: 1px solid #164EC0;
     border-radius: 8px;
@@ -91,6 +91,10 @@
     border-radius: 50%;
     font-size: 2rem !important;
 }
+.hero__card__bottom {
+    width: 40vw;
+    margin-right: auto;
+}
 .hero__card__navi {
     gap: 1.5rem;
 }
@@ -99,6 +103,8 @@
 }
 .flashcard .breadcrumb {
     margin-bottom: 1rem;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
 }
 .flashcard__option {
     gap: .5rem;
@@ -110,7 +116,6 @@
     color: rgba(0, 0, 0, 0.7);
 }
 /* -------------------------------------------------------------- */
-
 
 .modal {
     position: absolute;
