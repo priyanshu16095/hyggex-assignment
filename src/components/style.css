@@ -1,0 +1,104 @@
+.home {
+    gap: 3rem;
+    padding-bottom: 2rem;
+}
+
+.header__links {
+    gap: 1.5rem;
+}
+.header__links .loginButton {
+    font-size: 1rem;
+    font-weight: 550;
+    background: linear-gradient(180deg, #06286E, #164EC0);
+    padding: .3rem 1.5rem;
+    border-radius: 16px;
+    color: white;
+}
+
+.faq {
+    gap: 1.5rem;
+}
+.cards {
+    gap: 1.25rem;
+}
+.card {
+    width: 50rem;
+    padding: 0.8rem 0.5rem;
+    border: 1px solid #164EC0;
+    border-radius: 8px;
+    gap: .5rem;
+}
+
+.hero {
+    gap: 1rem;
+}
+.hero__card {
+    margin: 1rem 0;
+}
+.hero__center__links {
+    width: fit-content;
+    margin: auto;
+    gap: 1.5rem;
+}
+.hero__card__item {
+    background: linear-gradient(180deg, #06286E 0%, #164EC0 100%);
+    border-radius: 10px;
+    width: fit-content;
+    margin: 1rem auto;
+    height: 17rem;
+    width: 30rem;
+    padding: 1rem;
+}
+.hero__bottom__buttom {
+    gap: .5rem;
+}
+.hero__bottom__buttom .font {
+    font-size: 1.3rem !important;
+}
+
+.hero__equation {
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    color: white;
+}
+.volumeIcon {
+    font-size: 1.5rem;
+    color: white;
+}
+.hero__card_item__header .MuiSvgIcon-root {
+    font-size: 1.5rem !important;
+    color: white !important;
+}
+.hero__card__bottom {
+    width: 30rem;
+    margin: auto;
+}
+.iconA {
+    background-color: #06286E;
+    color: white;
+    border-radius: 50%;
+    font-size: 2rem !important;
+}
+.iconB {
+    background-color: white;
+    color: #06286E;
+    border-radius: 50%;
+    font-size: 2rem !important;
+}
+.hero__card__navi {
+    gap: 1.5rem;
+}
+
+.flashcard {
+    gap: 1rem;
+}
+.flashcard .breadcrumb {
+    margin-bottom: 1rem;
+}
+.flashcard__option {
+    gap: .5rem;
+}
+.flashcard__option .title {
+    margin-bottom: .6rem;
+}
