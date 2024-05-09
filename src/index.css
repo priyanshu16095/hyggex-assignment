@@ -10,12 +10,26 @@ a {
 a:hover {
   color: #164EC0;
 }
+input, textarea {
+  font-size: 1.1rem;
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
 button {
   padding: none;
   border: none;
   background: none;
   display: inline-block;
   cursor: pointer;
+}
+.button {
+  background-color: #164EC0;
+  padding: 0.3rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
 }
 
 .displayNone {
@@ -66,53 +80,41 @@ link:hover {
   justify-content: end;
 }
 
-.section {
-  margin-top: 4rem;
-}
-.container {
-  margin: 0 auto;
-  padding: 1rem;
-  /* border: 1px solid blue; */
-}
-
 body {
   max-width: 1300px;
   margin: auto;
   padding: 1rem;
+  overflow-x: hidden;
 }
 
-@media (max-width: 700px) {
-  .container {
-    width: 100%;
+
+.app {
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  max-width: 1450px;
+  margin: auto;
+}
+.app::-webkit-scrollbar {
+  display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.appBody {
+  min-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+
+@media all and (max-width: 705px) {
+  .header__links {
+    display: none;
+  }
+  .hero__card__item {
+    width: 80vw;
+  }
+  .card {
+    width: 85vw;
   }
 }
-/* @media (min-width: 475px) {
-  .container {
-      max-width: 475px;
-  }
-}
-@media (min-width: 640px) {
-  .container {
-      max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-      max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-      max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-      max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-  .container {
-      max-width: 1536px;
-  }
-} */

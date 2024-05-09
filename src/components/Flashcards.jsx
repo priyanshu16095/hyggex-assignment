@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
-import Hero from './Hero';
+import RelationAndFunctions from './other-components/RelationAndFunctions';
 import HomeIcon from '@mui/icons-material/Home';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
-function Flashcard() {
+function Flashcards() {
     const [selectedCard, setSelectedCard] = useState('Flashcards');
     const data = [
         {
+            title: 'cards',
             name: 'Flashcards',
             children: [
                 { name: 'Mathematics' },
@@ -16,9 +17,10 @@ function Flashcard() {
             ]
         },
         {
+            title: 'sub-cards',
             name: 'Mathematics',
             children: [
-                { name: 'Relations And Functions' },
+                { name: 'Relations And Functions', children: <RelationAndFunctions /> },
                 { name: 'Trignometry' },
                 { name: 'Calculus' },
                 { name: 'Functions' },
@@ -38,8 +40,13 @@ function Flashcard() {
     return (
         <div className='flashcard flex-v'>
             <div className="breadcrumb flex-h">
-                <HomeIcon />
-                
+                <HomeIcon /> 
+                <NavigateNextIcon /> 
+                <p className="link">Flashcards</p>
+                <NavigateNextIcon /> 
+                <p className="link">Mathematics</p>
+                <NavigateNextIcon /> 
+                <p className="link">Relations And Functions</p>
             </div>
 
             <div>
@@ -56,10 +63,10 @@ function Flashcard() {
                 }
                 return null;
             })}
-            {selectedCard === 'Relations And Functions' && <Hero />}
+            {selectedCard === 'Relations And Functions' && <RelationAndFunctions />}
             </div>
         </div>
     );
 }
 
-export default Flashcard;
+export default Flashcards;

@@ -5,7 +5,6 @@ function Header() {
   return (
     <div className='header flex-s'>
         <a href="https://www.hyggexworld.com/" target='_blank'><img src="Component-3.png" width={'160rem'} /></a>
-
         <div className="header__links flex-h">
             <p className="link pointer">Home</p>
             <p className="link pointer">Flashcard</p>
@@ -13,7 +12,6 @@ function Header() {
             <p className="link pointer">FAQ</p>
             <button className='loginButton'>Login</button>
         </div>
-      
     </div>
   )
 }

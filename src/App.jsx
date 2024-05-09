@@ -3,8 +3,11 @@ import Home from './components/Home'
 
 function App() {
   return (
-    <div>
+    <div className='app'>
+      <div className="appBody">
         <Home />
+
+      </div>
     </div>
   )
 }

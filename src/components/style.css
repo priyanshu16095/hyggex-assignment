@@ -3,6 +3,7 @@
     padding-bottom: 2rem;
 }
 
+/* -------------------------------------------------------------- */
 .header__links {
     gap: 1.5rem;
 }
@@ -14,7 +15,9 @@
     border-radius: 16px;
     color: white;
 }
+/* -------------------------------------------------------------- */
 
+/* -------------------------------------------------------------- */
 .faq {
     gap: 1.5rem;
 }
@@ -22,13 +25,13 @@
     gap: 1.25rem;
 }
 .card {
-    width: 50rem;
+    width: 50vw;
     padding: 0.8rem 0.5rem;
     border: 1px solid #164EC0;
     border-radius: 8px;
     gap: .5rem;
 }
-
+/* -------------------------------------------------------------- */
 .hero {
     gap: 1rem;
 }
@@ -46,21 +49,19 @@
     width: fit-content;
     margin: 1rem auto;
     height: 17rem;
-    width: 30rem;
+    /* width: 30rem; */
+    width: 40vw;
     padding: 1rem;
 }
-.hero__bottom__buttom {
-    gap: .5rem;
+.hero__card__content {
+    height: 90%;
 }
-.hero__bottom__buttom .font {
-    font-size: 1.3rem !important;
-}
-
-.hero__equation {
+.hero__content {
     align-items: center;
     justify-content: center;
     height: 90%;
     color: white;
+    font-size: 1.3rem !important;
 }
 .volumeIcon {
     font-size: 1.5rem;
@@ -71,7 +72,7 @@
     color: white !important;
 }
 .hero__card__bottom {
-    width: 30rem;
+    width: 100%;
     margin: auto;
 }
 .iconA {
@@ -79,6 +80,10 @@
     color: white;
     border-radius: 50%;
     font-size: 2rem !important;
+    cursor: pointer;
+}
+.iconA:hover {
+    background-color: #06296ee0;
 }
 .iconB {
     background-color: white;
@@ -89,7 +94,6 @@
 .hero__card__navi {
     gap: 1.5rem;
 }
-
 .flashcard {
     gap: 1rem;
 }
@@ -101,4 +105,32 @@
 }
 .flashcard__option .title {
     margin-bottom: .6rem;
+}
+.breadcrumb .MuiSvgIcon-root {
+    color: rgba(0, 0, 0, 0.7);
+}
+/* -------------------------------------------------------------- */
+
+
+.modal {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.306);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalBody {
+    inset: 0;
+    width: 40rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 1rem;
+}
+.modalFooterButton {
+    justify-content: end !important;
+}
+.modalContent {
+    gap: 1rem;
 }
